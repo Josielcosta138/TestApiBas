@@ -1,0 +1,27 @@
+{
+  "name": "testapibas",
+  "version": "1.0.0",
+  "description": "Este projeto, se trata de um inicio de teste de API com Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:ci": "cypress run",
+    "cypress:test-cy": "cypress run --spec cypress/e2e/2-advanced-examples/test.cy.js"
+    
+     
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josielcosta138/TestApiBas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josielcosta138/TestApiBas/issues"
+  },
+  "homepage": "https://github.com/Josielcosta138/TestApiBas#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0"
+  }
+}
