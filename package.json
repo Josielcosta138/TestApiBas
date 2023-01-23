@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
     "cypress:ci": "cypress run",
     "cypress:test-cy": "cypress run --spec cypress/e2e/2-advanced-examples/test.cy.js"
+    
     
      
   },
