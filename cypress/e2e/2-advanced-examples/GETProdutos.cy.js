@@ -40,7 +40,16 @@ describe(' --> API PRODUTOS.', () => {
                     expect(response.body.produtos.length).to.eq(2)
                     expect(response.body.produtos[0]).to.have.all.keys(
                         'nome','preco','descricao','quantidade','_id'
-                    )
+                    ) 
+                    expect(response.body.produtos[0].nome).to.be.equal('Logitech MX Vertical') 
+                    expect(response.body.produtos[0].preco).to.be.equal(470)
+                    expect(response.body.produtos[0].descricao).to.be.equal('Mouse')
+                    expect(response.body.produtos[0].quantidade).to.be.equal(382)
+                    expect(response.body.produtos[0]._id).to.be.equal('K6leHdftCeOJj8BJ')
+                        
+                  
+                               
+                      
                     
                 });
         });
