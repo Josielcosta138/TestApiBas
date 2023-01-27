@@ -7,11 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:ci": "cypress run",
-    "cypress:test-cy": "cypress run --spec cypress/e2e/2-advanced-examples/test.cy.js"
+    "cypress:test-cy": "cypress run --spec cypress/e2e/GETUsuarios/test.cy.js"
     
     
      
   },
+
+  "url": {
+    "baseUrl": "https://serverest.dev",
+    "video": false
+  },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Josielcosta138/TestApiBas.git"
@@ -26,4 +32,11 @@
   "devDependencies": {
     "cypress": "^12.3.0"
   }
+
+  
 }
+  
+  
+  
+
+
