@@ -29,13 +29,13 @@ describe(' --> API USUARIOS. ', () => {
             method: 'GET',
             url: '/usuarios/',
             qs: {
-                _id: '1IjqJk6ilILSq9NJ'  //query string parameter
+                _id: '0uxuPY0cbmQhpEz1'  //query string parameter
             }
         })
 
         .then((response) => {
             expect(response.status).to.be.equal(200)
-            expect(response.body.usuarios[0].nome).to.equal('Fulano da Silva')
+            expect(response.body.usuarios[0].nome).to.eq('Fulano da Silva')
 
         });
 
