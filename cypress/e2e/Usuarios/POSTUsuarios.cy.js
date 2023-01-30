@@ -9,14 +9,15 @@ describe(' --> API USUARIOS. ', () => {
           url: '/usuarios',
           body: {
 
+            
             nome: "Fulano da Silva",
             email: "beltrano@qa.com.br",
             password: "teste",
             administrador: "true"
 
             /*
-            nome: "Dumb Joe",
-            email: "dumb.joe@qa.com.br",
+            nome: "Dumb Joee",
+            email: "dumb.joe@qa.com.br", 
             password: "test",
             administrador: "true"*/
 

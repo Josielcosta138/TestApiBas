@@ -36,6 +36,7 @@ describe(' --> API USUARIOS. ', () => {
         .then((response) => {
             expect(response.status).to.be.equal(200)
             expect(response.body.usuarios[0].nome).to.eq('Fulano da Silva')
+            expect(response.body.usuarios[0].email).to.eq('fulano@qa.com')
 
         });
 

@@ -13,14 +13,14 @@ describe(' --> API USUARIO.', () => {
                         'nome','email','password','administrador','_id'
                     )
                     expect(response.body.usuarios[0].nome).to.equal('Fulano da Silva')
-                    expect(response.body.usuarios[0].email).to.equal('whqe@emailteste.com')
-                    expect(response.body.usuarios[0].password).to.equal('1234')
+                    expect(response.body.usuarios[0].email).to.equal('fulano@qa.com')
+                    expect(response.body.usuarios[0].password).to.equal('teste')
                     expect(response.body.usuarios[0].administrador).to.equal('true')
-                    expect(response.body.usuarios[0]._id).to.equal('1IjqJk6ilILSq9NJ')
+                    expect(response.body.usuarios[0]._id).to.equal('0uxuPY0cbmQhpEz1')
                     
                     
                 });
-        });
+        }); 
     });
 });
 
