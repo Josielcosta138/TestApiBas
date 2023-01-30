@@ -8,10 +8,19 @@ describe(' --> API USUARIOS. ', () => {
           method: 'POST',
           url: '/usuarios',
           body: {
+
+            nome: "Fulano da Silva",
+            email: "beltrano@qa.com.br",
+            password: "teste",
+            administrador: "true"
+
+            /*
             nome: "Dumb Joe",
             email: "dumb.joe@qa.com.br",
             password: "test",
-            administrador: "true"
+            administrador: "true"*/
+
+
           }
         })
           .should((response) => {
